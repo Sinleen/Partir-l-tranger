@@ -1,0 +1,124 @@
+body {
+  padding-top: 54px;
+}
+
+@media (min-width: 992px) {
+  body {
+    padding-top: 56px;
+  }
+}
+
+
+header.masthead>.overlay {
+  padding: 5rem 0;
+  text-align: center;
+  background: rgba(0, 0, 0, 0.6);
+}
+
+.orange{
+	color : #F58F0A;
+	font-weight : bold;
+}
+
+@media (min-width: 992px) {
+  header.masthead>.overlay {
+    padding: 10rem 0;
+}
+
+
+
+@import url(https://fonts.googleapis.com/css?family=Raleway:400,700);
+
+body {
+  position: relative;
+  line-height: 1.5;
+  font-family: 'Raleway', sans-serif;
+}
+
+h1, h2 {
+  font-weight: 700;
+}
+
+h2{
+	color : #F58F0A;
+}
+
+h3 span {
+  color: #286090;
+}
+
+
+#nav {
+  padding : 40px 0 ;
+  position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 50px;
+
+}
+
+
+
+section {
+  padding: 40px 0;
+  border-bottom: 1px solid #c1e1ec;
+}
+
+
+section:last-child {
+  border-bottom: none;
+}
+
+
+#nav a  {
+  color: black;
+}
+
+
+#nav #active {
+  font-weight: bold;
+  background: #72bcd4;
+}
+
+#nav #nav {
+  display: none;
+}
+
+
+
+#nav #nav a {
+  font-weight: normal;
+  font-size: .85em;
+}
+
+#nav #nav span {
+  margin: 0 5px 0 2px;
+}
+
+
+
+
+.card {
+  height: 100%;
+}
+
+h2#mil_titre {
+  font-weight: 700;
+  color: #4a4a4a;
+
+}
+
+div#pratique
+{
+  margin-bottom: 5%;
+}
+
+img#pratique {
+   height : 220px;
+}
+
+div#bordure1 {border-color : white;}
+div#bordure2 {border-color : white;}
+div#bordure3 {border-color : white;}
+
+div#h2_centre {padding:60px;}
+
